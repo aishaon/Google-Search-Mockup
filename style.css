@@ -1,0 +1,212 @@
+/* Custom Fonts */
+@font-face {
+  font-family: 'Cantarell Bold';
+  src: url("fonts/Cantarell-Bold-webfont.eot");
+  src: url("fonts/Cantarell-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Cantarell-Bold-webfont.woff") format("woff"), url("fonts/Cantarell-Bold-webfont.ttf") format("truetype"), url("fonts/Cantarell-Bold-webfont.svg#cantarellbold") format("svg");
+}
+@font-face {
+  font-family: 'Cantarell Regular';
+  src: url("fonts/Cantarell-Regular-webfont.eot");
+  src: url("fonts/Cantarell-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Cantarell-Regular-webfont.woff") format("woff"), url("fonts/Cantarell-Regular-webfont.ttf") format("truetype"), url("fonts/Cantarell-Regular-webfont.svg#cantarellregular") format("svg");
+}
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: 'Cantarell Regular', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  font-family: 'Cantarell Regular', sans-serif;
+  font-size: 15px;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+  font-family: 'Cantarell Regular', sans-serif;
+}
+
+blockquote, q {
+  quotes: none;
+  font-family: 'Cantarell Regular', sans-serif;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cantarell Bold', sans-serif !important;
+}
+
+/* .profile-bar style starts */
+.profile-bar {
+  width: 250px;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+.profile-bar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+}
+.profile-bar .links {
+  width: 40%;
+  float: left;
+  margin-top: 7px;
+}
+.profile-bar .group-icons {
+  width: 60%;
+  float: left;
+}
+.profile-bar .group-icons a {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.profile-bar .group-icons .apps-list a {
+  background: url(images/spirite.png) -130px 31px;
+}
+.profile-bar .group-icons .notifications a {
+  background: url(images/spirite.png) 0px 0px;
+}
+.profile-bar .group-icons .profile a {
+  background: url(images/user.png);
+}
+
+/* .profile-bar style end */
+/* .contents style begins */
+.contents {
+  width: 50%;
+  margin: 200px auto
+  /* .google-text-logo style begins */
+  /* .google-text-logo style end */
+  /* .search-form style begins */
+  /* .search-form style end */
+}
+.contents .google-text-logo {
+  width: 400px;
+  margin: 0px auto;
+  position: relative;
+}
+.contents .google-text-logo h1 {
+  font-size: 80px;
+  letter-spacing: -12px;
+  text-align: center;
+}
+.contents .google-text-logo h1 .g-letter-1 {
+  color: #1a85ec;
+}
+.contents .google-text-logo h1 .o-letter-1 {
+  color: #f13c21;
+}
+.contents .google-text-logo h1 .o-letter-2 {
+  color: #dad616;
+}
+.contents .google-text-logo h1 .g-letter-2 {
+  color: #208bf1;
+}
+.contents .google-text-logo h1 .l-letter {
+  color: #5bc51d;
+}
+.contents .google-text-logo h1 .e-letter {
+  color: #f13c21;
+}
+.contents .google-text-logo .country-name {
+  font-size: 13px;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: -10px;
+  right: 40px;
+  color: #4285f4;
+  white-space: nowrap;
+}
+.contents .search-form {
+  margin: 40px 0px 20px;
+}
+.contents .search-form input[type="text"] {
+  margin-bottom: 20px;
+  background: url(images/voice-search.png) no-repeat right center;
+}
+.contents .search-form input[type="submit"] {
+  font-weight: bold;
+  font-size: 13px;
+  padding: 8px 16px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+}
+.contents .search-form input[type="submit"]:hover, .contents .search-form input[type="submit"]:focus {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
+.contents .btn-group {
+  width: 265px;
+  margin: auto;
+  display: block;
+}
+.contents .language-offer-text {
+  text-align: center;
+}
+
+/* .contents style end */
+/* footer style begins*/
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: #ecf0f1;
+  padding: 20px 0px;
+}
+footer p {
+  text-transform: uppercase;
+  color: #333;
+  text-align: center;
+  font-size: 13px;
+}
+footer p a {
+  text-decoration: none;
+  color: #e67e22;
+}
+footer p a:hover, footer p a:focus {
+  color: #444;
+  text-decoration: none;
+}
+
+/* footer style end */
